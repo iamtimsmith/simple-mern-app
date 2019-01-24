@@ -2,6 +2,8 @@
 
 This is the codebase for a MERN application to go with the blog post located [here](https://www.iamtimsmith.com/blog/what-is-the-mern-stack-and-how-does-it-work/). It is not intended to be a complicated or production ready application, but rather to explain in easy-to-understand terms how the different pieces of the MERN stack fit together.
 
+![Simple MERN application by Tim Smith](image.png)
+
 To Download:
 
 ```
