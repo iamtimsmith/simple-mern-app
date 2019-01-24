@@ -12,9 +12,9 @@ const App = () => (
     <div>
       <Header />
       <Route path="/" exact component={Index} />
-      <Route path="/new" component={New} />
-      <Route path="/:id" exact component={Single} />
-      <Route path="/edit/:id" component={Edit} />
+      <Route path="/new" exact component={New} />
+      <Route path="/post/:id" exact component={Single} />
+      <Route path="/edit/:id" exact component={Edit} />
     </div>
   </Router>
 );

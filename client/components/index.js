@@ -25,7 +25,7 @@ class Index extends Component {
           {this.state.posts.map(post => (
             <li key={post.title}>
               <h2>
-                <Link to={`/${post._id}`}>{post.title}</Link>
+                <Link to={`/post/${post._id}`}>{post.title}</Link>
               </h2>
             </li>
           ))}

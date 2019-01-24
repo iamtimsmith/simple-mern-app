@@ -39,7 +39,7 @@ class New extends Component {
     };
     axios.post("http://localhost:3333/api/posts/", data).then(post => {
       alert("Post Successfully Updated!");
-      this.props.history.push(`/${this.props.match.params.id}`);
+      this.props.history.push(`/post/${this.props.match.params.id}`);
     });
   }
 
@@ -86,7 +86,7 @@ class New extends Component {
             />
             <Link
               className="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded"
-              to={`/${this.props.match.params.id}`}
+              to={`/post/${this.props.match.params.id}`}
             >
               Cancel
             </Link>
