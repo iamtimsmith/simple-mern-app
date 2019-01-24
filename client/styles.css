@@ -1,0 +1,7 @@
+@tailwind preflight;
+
+@tailwind utilities;
+
+input[type="submit"].bg-blue {
+  display:block; margin:0 auto;
+}
